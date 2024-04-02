@@ -5,7 +5,7 @@ const longOffsetString = longOffsetFormatter.format(new Date("2013-02-28T19:00:0
 // longOffsetString.split('GMT')[1] will give us '-05:00'
 const gmtOffset = longOffsetString.split('GMT')[1];
 
-let retirementDate = new Date("2024-04-02T09:55:00.000").toLocaleString("en-GB", {timeZone: "Asia/Singapore"});
+let retirementDate = new Date("2024-12-31T12:00:00.000").toLocaleString("en-GB", {timeZone: "Asia/Singapore"});
 // console.log(retirementDate)
 retirementDate = new Date(retirementDate).getTime()
 
